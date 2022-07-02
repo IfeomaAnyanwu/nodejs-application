@@ -1,7 +1,8 @@
 const sonarqubeScanner = require('sonarqube-scanner');
 
 sonarqubeScanner({
-  serverUrl: 'http://52.91.78.168:9000/',
+  //serverUrl: 'http://52.91.78.168:9000/', //copied and changed to ifeoma soanqube url
+	serverUrl:'http://172.31.25.146:9000/',
        options : {
 	    'sonar.projectDescription': 'This is a Node JS application',
 	    'sonar.projectName': 'Node JS Application - Sample',
